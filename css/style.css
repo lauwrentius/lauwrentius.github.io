@@ -1,0 +1,33 @@
+.container {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  padding: 20px 0px 0px 20px; }
+  header .col-text h1, header .col-text h4 {
+    color: #2D3C49;
+    font-weight: 300;
+    margin: 0px 0px; }
+  header .col-logo img {
+    width: 100%; }
+
+hr {
+  border-top: 3px solid #7d97ad; }
+
+section.banner img {
+  width: 100%; }
+
+section.work {
+  padding-bottom: 20px; }
+  section.work h2 {
+    color: #7d97ad; }
+  section.work .work-content {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 20px; }
+    section.work .work-content img {
+      width: 100%;
+      display: block;
+      margin: 0px auto; }
+    section.work .work-content .link {
+      display: block;
+      font-size: 14px; }
