@@ -8,7 +8,8 @@ header {
     font-weight: 300;
     margin: 0px 0px; }
   header .col-logo img {
-    width: 100%; }
+    width: 100%;
+    min-width: 100px; }
 
 hr {
   border-top: 3px solid #7d97ad; }
@@ -20,14 +21,25 @@ section.work {
   padding-bottom: 20px; }
   section.work h2 {
     color: #7d97ad; }
-  section.work .work-content {
+  section.work article.work-content {
     font-size: 24px;
     font-weight: 300;
     padding-bottom: 20px; }
-    section.work .work-content img {
+    section.work article.work-content img {
       width: 100%;
       display: block;
       margin: 0px auto; }
-    section.work .work-content .link {
+    section.work article.work-content .link {
       display: block;
       font-size: 14px; }
+
+footer {
+  background-color: #2D3C49;
+  padding: 5px 0px;
+  font-size: 16px; }
+  footer a {
+    color: white;
+    margin-left: 5px; }
+    footer a:hover {
+      color: #02B3E4;
+      text-decoration: none; }

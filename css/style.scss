@@ -16,9 +16,9 @@ header{
     }
   }
   .col-logo{
-
     img{
       width: 100%;
+      min-width: 100px;
     }
   }
 }
@@ -36,7 +36,7 @@ section.work{
   h2{
     color: $bali_hai;
   }
-  .work-content{
+  article.work-content{
     font-size: 24px;
     font-weight: 300;
     padding-bottom: 20px;
@@ -49,6 +49,20 @@ section.work{
     .link{
       display: block;
       font-size: 14px;
+    }
+  }
+}
+footer{
+  background-color: $oxford_blue;
+  padding: 5px 0px;
+  font-size: 16px;
+
+  a{
+    color: white;
+    margin-left: 5px;
+    &:hover{
+      color: $cerulean;
+      text-decoration: none;
     }
   }
 }
