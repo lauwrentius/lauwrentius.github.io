@@ -7,13 +7,34 @@
 		"uuidString": "ABFFBA6E-EF2A-44B1-AE0E-73856CDE2998"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26680",
 "files": {
-	"\/css\/.sass-lint.yml": {
+	"\/BG-loop.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/.sass-lint.yml",
+		"oAP": "\/BG-loop.mp4",
 		"oF": 0
+		},
+	"\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/style-old.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-old-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/style.css": {
 		"aP": 1,
@@ -25,22 +46,10 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/img\/appify.jpg": {
 		"ft": 16384,
 		"iS": 91784,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/appify.jpg",
 		"oF": 0,
@@ -51,6 +60,7 @@
 	"\/img\/bokeh.jpg": {
 		"ft": 16384,
 		"iS": 72864,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/bokeh.jpg",
 		"oF": 0,
@@ -61,6 +71,7 @@
 	"\/img\/html_code.jpg": {
 		"ft": 16384,
 		"iS": 164060,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/html_code.jpg",
 		"oF": 0,
@@ -79,9 +90,21 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/poster.jpg": {
+		"ft": 16384,
+		"iS": 768235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/sunflower.jpg": {
 		"ft": 16384,
 		"iS": 73789,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/sunflower.jpg",
 		"oF": 0,
@@ -89,17 +112,51 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/index-old.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-old.html",
+		"oF": 0
+		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/canvas-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/canvas-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/canvas.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/canvas-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -112,6 +169,155 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/ref\/Screen Shot 2018-07-12 at 4.05.40 PM.png": {
+		"ft": 32768,
+		"iS": 8792,
+		"oA": 0,
+		"oAP": "\/ref\/Screen Shot 2018-07-12 at 4.05.40 PM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/Screen Shot 2018-07-12 at 4.07.03 PM.png": {
+		"ft": 32768,
+		"iS": 4857,
+		"oA": 0,
+		"oAP": "\/ref\/Screen Shot 2018-07-12 at 4.07.03 PM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/Screen Shot 2018-07-12 at 4.07.22 PM.png": {
+		"ft": 32768,
+		"iS": 6715,
+		"oA": 0,
+		"oAP": "\/ref\/Screen Shot 2018-07-12 at 4.07.22 PM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/Screen Shot 2018-07-12 at 4.08.32 PM.png": {
+		"ft": 32768,
+		"iS": 5631,
+		"oA": 0,
+		"oAP": "\/ref\/Screen Shot 2018-07-12 at 4.08.32 PM.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/scss\/.sass-lint.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-lint.yml",
+		"oF": 0
+		},
+	"\/scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 3,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/WORK\/0261-23_minimalist_portfolio_webdesign_inspiration_jaypegams.jpg": {
+		"ft": 16384,
+		"iS": 34550,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/WORK\/0261-23_minimalist_portfolio_webdesign_inspiration_jaypegams.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/WORK\/0261-24_minimalist_portfolio_webdesign_inspiration_floatleft.jpg": {
+		"ft": 16384,
+		"iS": 36292,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/WORK\/0261-24_minimalist_portfolio_webdesign_inspiration_floatleft.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/WORK\/1_Pq5rzD2UaICcSAxPj6Ma8w.png": {
+		"ft": 32768,
+		"iS": 611538,
+		"oA": 0,
+		"oAP": "\/WORK\/1_Pq5rzD2UaICcSAxPj6Ma8w.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/WORK\/20-17_cabedge.jpg": {
+		"ft": 16384,
+		"iS": 57756,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/WORK\/20-17_cabedge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/WORK\/abstract-blue-plexus-background.jpg": {
+		"ft": 16384,
+		"iS": 32517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/WORK\/abstract-blue-plexus-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/WORK\/black.gif": {
+		"ft": 4194304,
+		"iS": 3983257,
+		"oA": 0,
+		"oAP": "\/WORK\/black.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/WORK\/COLOR-SCEME.png": {
+		"ft": 32768,
+		"iS": 64626,
+		"oA": 0,
+		"oAP": "\/WORK\/COLOR-SCEME.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/WORK\/FONT.png": {
+		"ft": 32768,
+		"iS": 10178,
+		"oA": 0,
+		"oAP": "\/WORK\/FONT.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
@@ -122,7 +328,8 @@
 	"creationDate": 521411067,
 	"displayValue": "lauwrentius.github.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-hart",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -130,6 +337,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -526,6 +734,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -533,6 +745,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -630,6 +846,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -646,9 +866,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -673,6 +901,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -706,9 +938,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -738,6 +970,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -747,14 +983,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -777,6 +1005,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1322,6 +1554,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1390,6 +1626,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1429,6 +1669,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -1842,7 +2086,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -1875,6 +2120,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -1886,6 +2132,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -1916,7 +2163,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -1948,13 +2196,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -1963,7 +2211,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -1983,7 +2232,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2011,7 +2261,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2062,6 +2313,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
