@@ -1,0 +1,30 @@
+{
+  "name": "lauwrentius.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.24.2",
+    "bulma": "^0.7.1",
+    "bulma-start": "^0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauwrentius/lauwrentius.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauwrentius/lauwrentius.github.io/issues"
+  },
+  "homepage": "https://github.com/lauwrentius/lauwrentius.github.io#readme"
+}

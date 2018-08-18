@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My custom Bulma website</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body class="has-navbar-fixed-top">
+  <nav class="navbar navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- navbar items, navbar burger... -->
+      <a class="navbar-item" href="https://bulma.io">
+        Lauwrentius Margetan
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <!-- navbar start, navbar end -->
+      <div class="navbar-end">
+        <!-- navbar items -->
+        <a class="navbar-item">Work</a>
+        <a class="navbar-item">About</a>
+        <a class="navbar-item">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero is-fullheight">
+    <div class="hero-video">
+      <video autoplay muted loop poster="/img/poster.jpg" id="myVideo">
+        <source src="./BG-loop.mp4" type="video/mp4">
+        <img src="/img/poster.jpg" class="poster-fallback">
+      </video>
+    </div>
+    <div class="hero-head"></div>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="box">
+            <h1>Hey there,</h1><br />
+            <p>my name is <b>Lauwrentius Margetan</b>, a full-stack developer<br /> based in Seattle. Feel free to look around some of my<br />
+            <a href="#">latest work</a> and <a href="">get in touch</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot"></div>
+  </section>
+
+  <section id="work" class="hero is-fullheight">
+    <div class="hero-head"></div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-centered">Latest Work</h1>
+        <div class="columns is-multiline">
+          <div class="column is-half">
+            <div class="media">
+            <figure class="media-left">
+              <div class="image icon"></div>
+            </figure>
+            <div class="media-content">
+              <h4 class="title is-4">1asdasd</h4>
+              <p>asdasdka;lsdka;lsd;lasdk;alsd</p>
+              <p>as';dla';sdl;a';sdl';asdl</p>
+            </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <h2>1asdasd</h2>
+          </div>
+          <div class="column is-half">
+            <h2>1asdasd</h2>
+          </div>
+          <div class="column is-half">
+            <h2>1asdasd</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot"></div>
+  </section>
+
+  <!--<section id="about" class="hero">
+  </section>
+  <section id="cotact" class="hero">
+  </section> -->
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+    // Check for click events on the navbar burger icon
+    $(".navbar-burger").click(function() {
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+    });
+  });
+  </script>
+</body>
+</html>
