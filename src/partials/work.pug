@@ -1,0 +1,32 @@
+- 
+  work = [
+    { title:"HCAHPS",
+      icon: "workIcon-hcahps",
+      desc:"Searchable and comparable app for hospitals' patient satisfaction survey data in the United States." },
+   { title:"Interactive Video",
+     icon: "workIcon-video",
+     desc: "Interactive tools for videos which allows users to navigates through different video (choose your adventure)." },
+   { title:"Item Catalog",
+     icon: "workIcon-item",
+     desc: "ENTER DESC TEXT HERE" },
+   { title:"VMG Scheduling",
+     icon: "workIcon-sched",
+     desc: "Internal productivity tools for tracking workload of each team member on a weekly basis." }]
+
+section#work.hero.is-fullheight
+  .hero-body.container
+    .content
+      h2.title.is-2.has-text-centered Latest Work
+      .columns.is-multiline
+        each val, i in work
+          .column.is-half
+            article.media
+              figure.media-left
+                span.icon.is-large
+                  i(class="workIcon "+ val.icon)
+              .media-content
+                .content
+                  h4= val.title
+                  p= val.desc
+                  a href="" Github
+                  a href="" Demo
