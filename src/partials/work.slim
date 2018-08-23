@@ -1,0 +1,31 @@
+- work = [ \
+  { title:"HCAHPS",
+    icon: "workIcon-hcahps",
+    desc:"Searchable and comparable app for hospitals' patient satisfaction survey data in the United States." },
+  { title:"Interactive Video",
+    icon: "workIcon-video",
+    desc: "Interactive tools for videos which allows users to navigates through different video (choose your adventure)." },
+  { title:"Item Catalog",
+    icon: "workIcon-item",
+    desc: "ENTER DESC TEXT HERE" },
+  { title:"VMG Scheduling",
+    icon: "workIcon-sched",
+    desc: "Internal productivity tools for tracking workload of each team member on a weekly basis." }]
+
+section#work.hero.is-fullheight
+  div.hero-body.container
+    div.content
+      h2.title.is-2.has-text-centered	Latest Work
+      div.columns.is-multiline
+        - for i in work do
+          div.column.is-half
+            article.media
+              figure.media-left
+                span.icon.is-large
+                  i [class="workIcon #{i[:icon]}"]
+              div.media-content
+                div.content
+                  h4 #{i[:title]}
+                  p #{i[:desc]}
+                  a href="" Github
+                  a href="" Demo

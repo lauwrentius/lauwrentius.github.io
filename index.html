@@ -1,49 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Lauwrentius Margetan - Full Stack Dev.</title>
-  <link rel="shortcut icon" href="./favicon.ico">
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-
-  <link rel="stylesheet" href="./css/style.css">
-<link href="css/style.css" rel="stylesheet"></head>
-
+    <title>Lauwrentius Margetan - Full Stack Dev</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" rel="stylesheet">
+      <link href="./css/style.css" rel="stylesheet">
+    </link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
   <body>
-    <header>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-</nav>
-
-    </header>
-    <main>
-      
-      
-
-      <div class="bg-wrapper">
-        
-        
+    <nav aria-label="main navigation" class="navbar is-transparent is-dark is-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">Lauwrentius Margetan</a><a aria-expanded="false" aria-label="menu" class="navbar-burger" role="button"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">Work</a><a class="navbar-item">About</a><a class="navbar-item">Contact</a>
+          </div>
+        </div>
       </div>
+    </nav>
+    <main>
+      <section class="hero is-fullheight video" id="home">
+        <div class="hero-video">
+          <video autoplay id="myVideo" loop muted poster="/img/poster.jpg">
+            <source src="./video/BG-loop.mp4" type="video/mp4"><img class="poster-fallback" src="./img/poster.jpg">
+          </video>
+        </div>
+        <div class="hero-body">
+          <div class="container">
+            <div class="box">
+              <h1 class="title is-1">
+                Hey there,
+              </h1>
+              <p>
+                my name is <b>Lauwrentius Margetan</b>, full-stack developer based in Seattle. Feel free to look around some of my <a href="#">latest work</a> and <a href="">get in touch</a>. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-fullheight" id="work">
+        <div class="hero-body container">
+          <div class="content">
+            <h2 class="title is-2 has-text-centered">
+              Latest Work
+            </h2>
+            <div class="columns is-multiline">
+              <div class="column is-half">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large"><i class="workIcon workIcon-hcahps"></i></span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <h4>
+                        HCAHPS
+                      </h4>
+                      <p>
+                        Searchable and comparable app for hospitals&#39; patient satisfaction survey data in the United States.
+                      </p>
+                      <a href="">Github</a><a href="">Demo</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="column is-half">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large"><i class="workIcon workIcon-video"></i></span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <h4>
+                        Interactive Video
+                      </h4>
+                      <p>
+                        Interactive tools for videos which allows users to navigates through different video (choose your adventure).
+                      </p>
+                      <a href="">Github</a><a href="">Demo</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="column is-half">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large"><i class="workIcon workIcon-item"></i></span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <h4>
+                        Item Catalog
+                      </h4>
+                      <p>
+                        ENTER DESC TEXT HERE
+                      </p>
+                      <a href="">Github</a><a href="">Demo</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="column is-half">
+                <article class="media">
+                  <figure class="media-left">
+                    <span class="icon is-large"><i class="workIcon workIcon-sched"></i></span>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <h4>
+                        VMG Scheduling
+                      </h4>
+                      <p>
+                        Internal productivity tools for tracking workload of each team member on a weekly basis.
+                      </p>
+                      <a href="">Github</a><a href="">Demo</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="title is-2 has-text-centered">
+            About Me
+          </h2>
+          <div class="columns is-centered">
+            <div class="column is-four-fifths">
+              <p>
+                I've been working in the industry as a Web Developer / Motion Designer for more almost 8 years. Worked on projects ranging from custom theme Wordpress site to single-page application deployed on a cloud computing platform. Love the intersection between dev and design. An avid learner and keen to explore new technology
+              </p>
+              <h3>
+                Tools of the Trade
+              </h3>
+              <div class="columns">
+                <div class="column">
+                  <p class="tools">
+                    <b>Languages:</b> HTML, JavaScript, PHP, Python 
+                  </p>
+                  <p class="tools">
+                    <b>Frameworks:</b> React, React Native, Angular, Knockout, FLASK, Bootstrap, SLIM, OAuth2 
+                  </p>
+                  <p class="tools">
+                    <b>Database:</b> MySQL, PostgreSQL, SQLite 
+                  </p>
+                  <p class="tools">
+                    <b>Libraries:</b> Redux, SQLAlchemy, jQuery, D3, Videojs, Underscore 
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="tools">
+                    <b>Platform:</b> Google Firebase, AWS, Azure 
+                  </p>
+                  <p class="tools">
+                    <b>Tools:</b> Git, NPM, Gulp, Webpack, Atom, Codekit, Adobe Creative Suite, Cinema 4D 
+                  </p>
+                  <p class="tools">
+                    <b>Other:</b> REST API, CSS(Sass), XML, JSON, Wordpress, Responsive sites. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-four-fifths">
+              <div class="box">
+                <h2 class="title is-2 has-text-centered">
+                  Get in Contact
+                </h2>
+                <h4>
+                  Thanks for checking in, drop me a line below.
+                </h4>
+                <br>
+                <div class="columns">
+                  <div class="column">
+                    <a href="">lauwrentius[at]gmail.com</a>
+                  </div>
+                  <div class="column">
+                    <a href="">GitHub</a>
+                  </div>
+                  <div class="column">
+                    <a href="">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      
-    </footer>
-
-  <script type="text/javascript" src="js/bundle.js"></script></body>
+  </body>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <a href="">Mail</a> <a href="">LinkedIn</a> 
+      </p>
+    </div>
+  </footer>
 </html>

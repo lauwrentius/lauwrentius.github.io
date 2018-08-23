@@ -1,6 +1,9 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require("webpack");
+// var ReloadPlugin = require('reload-html-webpack-plugin');
 
+// const jQuery = require("jquery")
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 // const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
@@ -16,6 +19,12 @@ module.exports = {
     path: path.resolve(__dirname, './'),
     filename: 'js/bundle.js'
   },
+  // devServer: {
+  //   publicPath: '/',
+  //   contentBase: './',
+  //   watchContentBase: true,
+  //   port: 8080
+  // },
   module: {
     rules: [
       // {
@@ -64,7 +73,7 @@ module.exports = {
         test: /\.scss$/,
         use: extractCSS.extract({
           fallback: 'style-loader',
-          use: [ 'css-loader', 'sass-loader' ]
+          use: [ 'raw-loader', 'css-loader', 'sass-loader' ]
         })
       },
       {
@@ -73,7 +82,9 @@ module.exports = {
     ]
   },
   plugins: [
-    extractCSS,
+    // doctype html
+html
+  headextractCSS,
     // new OptimizeCssAssetsPlugin({
     //       assetNameRegExp: /\.optimize\.css$/g,
     //       cssProcessor: require('cssnano'),
@@ -82,6 +93,11 @@ module.exports = {
     //     }),
     new HtmlWebpackPlugin({
       template: './src/main.html.ejs'
+    }),
+    // new ReloadPlugin(),
+    new webpack.ProvidePlugin({
+     $: "jquery",
+     jQuery: "jquery"
     })
   ]
 };

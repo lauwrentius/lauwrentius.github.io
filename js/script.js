@@ -1,13 +1,6 @@
-require('./scss/style.scss');
-
-// require('./main.html.ejs');
-// require("html-loader?interpolate!./main.html");
-
-// require('./templates/index.pug');
-// console.log('doc ready');
-
 $(document).ready(function() {
-
+  console.log("Doc Ready");
+  
   // Check for click events on the navbar burger icon
   $(".navbar-burger").click(function() {
       // console.log("ASDAASDas");
