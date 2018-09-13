@@ -5,30 +5,8 @@
   "repository": "https://github.com/lauwrentius/lauwrentius.github.io",
   "author": "Init Built <lauwrentius.m@vmgstudio520.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "webpack-dev-server --hot --inline --mode=development"
-  },
-  "devDependencies": {
-    "bulma": "^0.7.1",
-    "css-loader": "^1.0.0",
-    "ejs-html-loader": "^3.1.0",
-    "extract-loader": "^2.0.1",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^1.1.11",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.9.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.0",
-    "pug-html-loader": "^1.1.5",
-    "raw-loader": "^0.5.1",
-    "reload-html-webpack-plugin": "^0.1.2",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.22.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
-  },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "bulma": "^0.7.1"
   }
 }

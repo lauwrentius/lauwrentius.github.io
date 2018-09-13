@@ -5,12 +5,14 @@ html(lang='en')
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel="shortcut icon" href="./favicon.ico")
 
-    link(href="https://fonts.googleapis.com/css?family=Montserrat:300,600", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700", rel="stylesheet")
     link(href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css", rel="stylesheet")
     link(href="./css/style.css",rel="stylesheet")
+    link(href="https://unpkg.com/aos@2.3.1/dist/aos.css", rel="stylesheet")
+
 
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
-    script(src="js/script.js")
+    script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
 
     title Lauwrentius Margetan
   
@@ -18,6 +20,32 @@ html(lang='en')
     include ./partials/navbar.pug
     include ./partials/home.pug
     include ./partials/work.pug
-    include ./partials/about.pug
-    include ./partials/contact.pug
+    .bg-wrapper.has-text-light
+      include ./partials/about.pug
+      include ./partials/contact.pug
     include ./partials/footer.pug
+    script.
+      AOS.init();
+      $(window).on('load', function () {
+        AOS.refresh();
+      });
+      /* $(window).load(function() { setTimeout(function() { AOS.refresh(); }, 500); }); */
+
+
+      $(".navlink").click(function(evt){
+        event.preventDefault();
+        
+        var target = $("#"+$(this).data('navlink'));
+        $('html, body').animate({
+           scrollTop: target.offset().top
+         }, 1000, function() {
+
+         });
+      });
+      document.addEventListener('aos:in', function(detail) {
+        console.log('animated in', detail);
+      });
+
+      document.addEventListener('aos:out', function(detail) {
+        console.log('animated out', detail);
+      });

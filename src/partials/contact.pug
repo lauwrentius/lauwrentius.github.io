@@ -2,14 +2,26 @@ section.section#contact
   div.container
     div.columns.is-centered
       div.column.is-four-fifths
-        div.box
-          h2.title.is-2.has-text-centered Get in Contact
-          h4 Thanks for checking in, drop me a line below.
+        div.box(data-aos="fade-up")
+          h2.title.is-size-2.has-text-centered Get in Contact
+          h4.is-size-5 Thanks for checking in, drop me a line below.
           br
-          div.columns
-            div.column
-              a(href="") lauwrentius[at]gmail.com
-            div.column
-              a(href="") GitHub
-            div.column
-              a(href="") LinkedIn
+          ul.contact-list
+            li
+              a(href="mailto:lauwrentius@gmail.com") 
+                i.icon-envelope-open
+                | 
+                |
+                | Email
+            li
+              a(href="https://github.com/lauwrentius" target="_blank")
+                i.icon-social-github
+                |
+                | 
+                | GitHub
+            li
+              a(href="https://www.linkedin.com/in/lauwrentius/" target="_blank")
+                i.icon-social-linkedin
+                | 
+                | 
+                | LinkedIn
