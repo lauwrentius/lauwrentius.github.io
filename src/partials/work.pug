@@ -3,19 +3,19 @@
     { title:"Qups",
       icon: "workIcon-hcahps",
       desc:"Searchable and comparable patient satisfaction survey (HCAHPS) for all hsopitals in the in the United States.",
-      demoLink: "http://ec2-54-202-74-198.us-west-2.compute.amazonaws.com/Qups/",
-      githubLink: "" },
-   { title:"Interactive Video",
-     icon: "workIcon-video",
-     desc: "Interactive tools for videos which allows users to navigates through different video (choose your adventure)." },
-   { title:"Item Catalog",
-     icon: "workIcon-item",
-     desc: "Web Application that provides a list of items on a number of categories. Allows user registration and authentication system for to post, edit and delete their own items.",
-     demoLink: "https://lm-udacity-item-catalog.herokuapp.com/"},
-   { title:"VMG Scheduling",
-     icon: "workIcon-sched",
-     desc: "Internal productivity tools for tracking workload of each team member on a weekly basis.",
-     demoLink: "http://ec2-54-202-74-198.us-west-2.compute.amazonaws.com/VMG-Scheduling/"}]
+      demoLink: "http://ec2-54-202-74-198.us-west-2.compute.amazonaws.com/Qups/" },
+   {  title:"Interactive Video",
+      icon: "workIcon-video",
+      desc: "Interactive tools for videos which allows users to navigates through different video (choose your adventure).",
+      demoLink: "https://t-mob-demo.firebaseapp.com/"},
+   {  title:"Item Catalog",
+      icon: "workIcon-item",
+      desc: "Web Application that provides a list of items on a number of categories. Allows user registration and authentication system for to post, edit and delete their own items.",
+      demoLink: "https://lm-udacity-item-catalog.herokuapp.com/" },
+   {  title:"VMG Scheduling",
+      icon: "workIcon-sched",
+      desc: "Internal productivity tools for tracking workload of each team member on a weekly basis.",
+      demoLink: "http://ec2-54-202-74-198.us-west-2.compute.amazonaws.com/VMG-Scheduling/"}]
 
 section#work.hero.is-fullheight
   .hero-body.container
@@ -32,14 +32,16 @@ section#work.hero.is-fullheight
                 .content
                   h4= val.title
                   p= val.desc
-                  if val.githubLink
-                    a(href=val.githubLink, target="_blank") 
-                      i.icon-social-github
-                      | 
-                      | Github
-                  | 
                   if val.demoLink
                     a(href=val.demoLink, target="_blank")
-                      i.icon-rocket
-                      | 
-                      | Demo
+                      b
+                        i.icon-rocket
+                        | 
+                        | Demo
+                  | 
+                  if val.githubLink
+                    a(href=val.githubLink, target="_blank")
+                      b
+                        i.icon-social-github
+                        | 
+                        | Github
